@@ -16,4 +16,8 @@ nombre = "Kevin Flores"
 edad = 22
 estatura = 1.50
 
-print("Hola, Bienvenido " +"Su nombre es: " +nombre +" Su edad es: "+str(edad)  +" Su estatura es: " +str(estatura) )
+#print("Hola, Bienvenido " +"Su nombre es: " +nombre +" Su edad es: "+str(edad)  +" Su estatura es: " +str(estatura) )
+
+
+#.format
+print("Hola, Bienvenido Su nombre es: {} Su edad es: {} Su estatura es: {}".format(nombre,edad,estatura))
