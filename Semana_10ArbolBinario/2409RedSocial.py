@@ -39,7 +39,21 @@ def postorder(raiz):
         postorder(raiz.izquierdo)
         postorder(raiz.derecho)
         print(f"ID: {raiz.id}, Nombre: {raiz.nombre}")
-        
+
+
+def eliminar(raiz, id_usuario):
+    if raiz is None:
+        return raiz
+    if id_usuario < raiz.id:
+        raiz.izquierdo = eliminar(raiz.izquierdo, id_usuario)
+    elif id_usuario > raiz.id:
+        raiz.derecho = eliminar(raiz.derecho, id_usuario)
+    else:
+        if raiz.izquierdo is None:
+            return raiz.derecho
+        elif raiz.derecho is None:
+            return raiz.izquierdo
+            
 raiz = None
 
 usuarios = [
