@@ -45,4 +45,4 @@ inorden(raiz)
 print("Recorrido Postorden")
 postorden(raiz)
 
-##
+## D E B F G C A
