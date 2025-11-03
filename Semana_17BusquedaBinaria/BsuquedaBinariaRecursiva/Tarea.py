@@ -2,6 +2,11 @@
 ## Ana, Carlos, David, Esteban, Luisa, Maria, Sofia
 
 
+##Kevin Mauricio Alvarenga Flores
+
+
+
+
 def busqueda_recursiva(lista, valor, inicio, fin):
     
     if inicio > fin:
@@ -20,11 +25,11 @@ def busqueda_recursiva(lista, valor, inicio, fin):
     
 numeros = ["Ana", "Carlos", "David", "Esteban", "Luisa", "Maria", "Sofia"]
 
-valor_buscado = "Carlos"
+valor_buscado = "Esteban"
 
 resultado = busqueda_recursiva(numeros, valor_buscado, 0, len(numeros))
 
 if resultado != -1:
-    print(f"La persona{valor_buscado} esta en la posicion {resultado}")
+    print(f"La persona {valor_buscado} esta en la posicion {resultado}")
 else:
     print(f"El nombre {valor_buscado} no se encuentra en la lista")
