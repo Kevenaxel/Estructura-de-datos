@@ -63,3 +63,5 @@ print("Ordenados de menor a mayor:", ordenados_asc)
 
 ordenados_desc = quicksort_desc(alumnos)
 print("Ordenados de mayor a menor:", ordenados_desc)
+
+####    Kevin Mauricio Alvarenga Flores U20240632
